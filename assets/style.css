@@ -1,0 +1,13 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.darkmode {
+    background-color: #292929;
+    color: white;
+}
+
+#checkbox{
+    cursor: pointer;
+}
