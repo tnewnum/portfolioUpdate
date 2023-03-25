@@ -1,6 +1,9 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
 .darkmode {
@@ -10,4 +13,27 @@ body {
 
 #checkbox{
     cursor: pointer;
+}
+
+#header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.form-check {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 25px;
+}
+
+
+.nav-link {
+    padding-top: 15px;
+   margin: 25px;   
+}
+
+#name {
+   
+    margin: 25px;
 }
